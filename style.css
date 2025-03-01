@@ -144,6 +144,7 @@ body{
     font-weight: 700;
     line-height: 1.1;
     color: var(--accent-color);
+    letter-spacing: 0.03;
 }
 
 .nav-list{
@@ -152,6 +153,7 @@ body{
     font-weight: 500;
     line-height: 1.1;
     text-align: center;
+    letter-spacing: 0.02;
 }
 
 .address-list{
@@ -166,7 +168,8 @@ body{
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color: var(--accent-color);
+    letter-spacing: 0.03;
+
 }
 
 
@@ -175,5 +178,24 @@ body{
     font-size: 26px;
     font-weight: 700;
     line-height: 1.1;
-    color: var(--accent-color);
+    letter-spacing: 0.03;
+ 
+}
+
+.website-item{
+    font-family: "Roboto", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02;
+    text-align: center;
+}
+
+.header-list{
+    font-family: "Roboto", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02;
+    text-align: center;
 }
