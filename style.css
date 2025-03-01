@@ -136,4 +136,19 @@
     line-height:30.52px;
 }
 
+.nav-list{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: center;
+}
+
+.address-list{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: center;
+}
 
