@@ -142,14 +142,14 @@ body{
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
-    line-height:30.52px;
+    line-height: 1.1;
 }
 
 .nav-list{
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-    line-height: 16.41px;
+    line-height: 1.1;
     text-align: center;
 }
 
@@ -157,7 +157,12 @@ body{
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
-    line-height: 16.41px;
+    line-height: 1.1;
     text-align: center;
 }
 
+.footer-item{
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
