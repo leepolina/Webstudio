@@ -224,3 +224,12 @@ body{
     line-height: 1.1;
     letter-spacing: 0.03;
 }
+
+.whatwedo-container{
+    width: 430px;
+    margin-bottom: 94px;
+}
+.team-container{
+    width: 430px;
+    margin-bottom: 94px;
+}
