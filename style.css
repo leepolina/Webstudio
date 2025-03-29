@@ -36,8 +36,24 @@ body {
   margin: 0 auto;
 
   outline: solid red;
+
 }
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+.address-list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
 .title {
   color: var(--accent-color);
 }
@@ -168,6 +184,7 @@ body {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02;
+  
 }
 
 .address-list {
@@ -176,6 +193,7 @@ body {
   font-weight: 500;
   line-height: 1.1;
   text-align: center;
+
 }
 
 .footer-item {
