@@ -36,23 +36,22 @@ body {
   margin: 0 auto;
 
   outline: solid red;
-
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
 }
-.nav-list{
-    display: flex;
-    gap: 20px;
+.nav-list {
+  display: flex;
+  gap: 20px;
 }
-.address-list{
-    display: flex;
-    gap: 15px;
-    align-items: center;
+.address-list {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 .title {
   color: var(--accent-color);
@@ -70,9 +69,8 @@ body {
   color: #212121;
 }
 
-.hero {
-  background-color: #2f303a;
-}
+
+
 .address-item {
   color: var(--accent-color);
 }
@@ -184,7 +182,6 @@ body {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02;
-  
 }
 
 .address-list {
@@ -193,7 +190,6 @@ body {
   font-weight: 500;
   line-height: 1.1;
   text-align: center;
-
 }
 
 .footer-item {
@@ -245,11 +241,17 @@ body {
   letter-spacing: 0.03;
 }
 
-.hero-container {
-  margin-bottom: 94px;
+.hero{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  background-color: #2f303a;
 }
 
 .about {
+  margin-bottom: 94px;
+  margin-top:94px ;
   margin-bottom: 94px;
 }
 .whatwedo-image {
@@ -270,4 +272,9 @@ body {
 
 .footer-item {
   margin-bottom: 94px;
+}
+
+.logofooter-item{
+    display: flex;
+    margin-bottom: 20px;
 }
