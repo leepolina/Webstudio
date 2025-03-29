@@ -240,3 +240,16 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+.team {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.team-item {
+  width: 300px;
+}
+
+.footer-item {
+  margin-bottom: 94px;
+}
