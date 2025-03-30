@@ -37,7 +37,11 @@ body {
 
   outline: solid red;
 }
-
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 344px;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -68,8 +72,6 @@ body {
 .address-item1 {
   color: #212121;
 }
-
-
 
 .address-item {
   color: var(--accent-color);
@@ -241,17 +243,16 @@ body {
   letter-spacing: 0.03;
 }
 
-.hero{
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  background-color:#2f303a;
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: #2f303a;
 }
 
 .about {
   margin-bottom: 94px;
-  margin-top:94px ;
+  margin-top: 94px;
   margin-bottom: 94px;
 }
 .whatwedo-image {
@@ -266,15 +267,19 @@ body {
   margin-bottom: 50px;
 }
 
+.team-image {
+  width: 270px;
+  height: 260px;
+}
+
 .team-item {
-  width: 300px;
 }
 
 .footer-item {
   margin-bottom: 94px;
 }
 
-.logofooter-item{
-    display: flex;
-    margin-bottom: 20px;
+.logofooter-item {
+  display: flex;
+  margin-bottom: 20px;
 }
