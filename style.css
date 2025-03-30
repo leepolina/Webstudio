@@ -255,16 +255,26 @@ body {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.whatwedo-image {
-  width: 400px;
-  margin-top: 50px;
+.whatwedo-title{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.whatwedo-list {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.whatwedo-image {
+  width: 370px;
+  height: 294px;
 }
 
 .team {
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .team-image {
