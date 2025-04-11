@@ -259,6 +259,16 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
+  letter-spacing: 6%;
+  text-align: center;
+}
+
+.button-item{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:1.8 ;
+    letter-spacing: 6%;
 }
 
 .about {
@@ -266,10 +276,10 @@ body {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.list-portfolio{
-    display: flex;
-    align-items: start;
-    gap: 30px;
+.list-portfolio {
+  display: flex;
+  align-items: start;
+  gap: 30px;
 }
 .whatwedo-title {
   display: flex;
@@ -321,11 +331,6 @@ body {
   justify-content: space-between;
   gap: 30px;
 }
-
-.footer-item {
-  margin-bottom: 94px;
-}
-
 
 .logofooter-item {
   display: flex;
