@@ -232,8 +232,15 @@ body {
   gap: 8px;
   margin-top: 94px;
   justify-content: center;
-
+  margin-bottom: 50px;
 }
+
+.list-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .footerlogo-item1 {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
