@@ -113,8 +113,22 @@ body {
 .headeraddress-item2 {
   color: #757575;
 }
-.buttonmain-item1 {
+
+.buttonmain-item:hover {
   background-color: var(--accent-color);
+}
+
+.buttonmain-item {
+
+  font-family:"Roboto", sans-serif ;
+  font-weight: 500;
+  font-size:16px;
+  line-height: 1.6;
+  letter-spacing: 3%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+  padding-right:25px;
 }
 
 .buttonmain-item:hover,
