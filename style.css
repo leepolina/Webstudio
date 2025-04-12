@@ -119,7 +119,6 @@ body {
 }
 
 .buttonmain-item {
-
   font-family:"Roboto", sans-serif ;
   font-weight: 500;
   font-size:16px;
@@ -253,6 +252,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 94px;
+    gap: 30px;
 }
 
 
