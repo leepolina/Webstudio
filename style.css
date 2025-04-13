@@ -78,7 +78,7 @@ body {
   background-color: #2f303a;
 }
 .logofooter-item {
-  background-color: #2196f3;
+  color: #2196f3;
 }
 .footeraddress-item1 {
   color: #ffffff;
@@ -119,15 +119,15 @@ body {
 }
 
 .buttonmain-item {
-  font-family:"Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size:16px;
+  font-size: 16px;
   line-height: 1.6;
   letter-spacing: 3%;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 25px;
-  padding-right:25px;
+  padding-right: 25px;
 }
 
 .buttonmain-item:hover,
@@ -248,13 +248,16 @@ body {
   margin-bottom: 50px;
 }
 
-.list-list{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 94px;
-    gap: 30px;
+.list-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+  gap: 30px;
 }
 
+.list-list img {
+  width: 370px;
+}
 
 .footerlogo-item1 {
   font-family: "Raleway", sans-serif;
