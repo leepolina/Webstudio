@@ -300,43 +300,34 @@ body {
   margin-top: 94px;
   margin-bottom: 94px;
 }
-.list-portfolio {
+.about-list {
   display: flex;
   align-items: start;
   gap: 30px;
 }
 
-.list-portfolio::before{
+.about-item::before {
     content: "";
     display: inline-block;
-    width: 65px;
-    height: 70px;
+    padding-right: ;
+    background-position: center;
+    border-radius: ;
+    background-color: ;
+    margin-bottom: ;
     background-repeat: no-repeat;
     background-position: top;
 }
-.list-portfolio:nth-child(1)::before{
-    background-image: url(./images/antenna\ 1.png);
-    display: flex;
-    align-items: flex-start;
-    padding: 55px;
+.about-item:nth-child(1)::before {
+  background-image: url(./images/antenna\ 1.png);
 }
-.list-portfolio:nth-child(2)::before{
-    background-image: url(./images/clock\ 1.png);
-    display: flex;
-    align-items: flex-start;
-    padding: 55px;
+.about-item:nth-child(2)::before {
+  background-image: url(./images/clock\ 1.png);
 }
-.list-portfolio:nth-child(3)::before{
-    background-image: url(./images/diagram\ 1.png);
-    display: flex;
-    align-items: flex-start;
-    padding: 55px;
+.about-item:nth-child(3)::before {
+  background-image: url(./images/diagram\ 1.png);
 }
-.list-portfolio:nth-child(4)::before{
-    background-image: url(./images/astronaut\ 1.png);
-    display: flex;
-    align-items: flex-start;
-    padding: 55px;
+.about-item:nth-child(4)::before {
+  background-image: url(./images/astronaut\ 1.png);
 }
 
 .whatwedo-title {
