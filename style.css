@@ -309,11 +309,11 @@ body {
 .about-item::before {
     content: "";
     display: inline-block;
-    padding-right: ;
+    padding-right: 94px;
     background-position: center;
-    border-radius: ;
-    background-color: ;
-    margin-bottom: ;
+    border-radius:8px ;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: top;
 }
