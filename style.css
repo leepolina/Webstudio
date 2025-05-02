@@ -280,6 +280,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 6%;
   text-align: center;
+  background-image: url(./images/webstudiobackground.png);
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./images/webstudiobackground.png)
+
 }
 
 .button-item {
@@ -316,6 +324,12 @@ body {
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: top;
+    width: 70px;
+    height: 70px;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
 }
 .about-item:nth-child(1)::before {
   background-image: url(./images/antenna\ 1.png);
