@@ -416,6 +416,9 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px #000, 5px 5px 10px #000;
+  
 }
 
 .teamname-list {
