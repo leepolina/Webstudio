@@ -248,6 +248,11 @@ body {
   margin-bottom: 50px;
 }
 
+.list-list:hover{
+    box-shadow: 2px 2px 5px #000, 5px 5px 10px #000;
+}
+
+
 .list-list {
   display: flex;
   flex-wrap: wrap;
