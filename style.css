@@ -283,11 +283,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 6%;
-  text-align: center;
-  background-image: url(./images/webstudiobackgroundd.jpg);
   background-repeat: no-repeat;
-  width: 1600px;
-  height: 600px;
   background-size: cover;
   background-position: center;
   background-image: linear-gradient(
