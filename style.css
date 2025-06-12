@@ -373,6 +373,7 @@ body {
 .team {
   padding-top: 94px;
   padding-bottom: 50px;
+  background-color: #F5F4FA;
 }
 
 .team-title {
@@ -421,7 +422,24 @@ body {
   height: 368px;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #000, 5px 2px 5px #000;
+  margin-bottom: 188px;
 }
+
+.vipclients-name{
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
 
 .logofooter-item {
   display: flex;
