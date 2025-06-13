@@ -248,7 +248,7 @@ body {
   margin-bottom: 50px;
 }
 
-.list-list:hover {
+.list-item:hover {
   box-shadow: 2px 2px 5px #000, 5px 5px 10px #000;
 }
 
@@ -284,7 +284,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 6%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1600px;
   background-position: center;
   background-image: linear-gradient(
       to top,
@@ -321,8 +321,6 @@ body {
 .about-item::before {
   content: "";
   display: inline-block;
-  padding-right: 94px;
-  background-position: center;
   border-radius: 8px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -330,10 +328,6 @@ body {
   background-position: top;
   width: 70px;
   height: 70px;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 100px;
 }
 .about-item:nth-child(1)::before {
   background-image: url(./images/antenna\ 1.png);
@@ -373,7 +367,7 @@ body {
 .team {
   padding-top: 94px;
   padding-bottom: 50px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -414,7 +408,6 @@ body {
   justify-content: space-between;
   gap: 30px;
   justify-content: space-between;
-  
 }
 
 .teamname-list {
@@ -425,21 +418,17 @@ body {
   margin-bottom: 188px;
 }
 
-.vipclients-name{
-    font-family:"Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 100%;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.vipclients-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-
-
-
 
 .logofooter-item {
   display: flex;
