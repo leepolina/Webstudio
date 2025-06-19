@@ -34,7 +34,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
 }
 .nav-list {
   display: flex;
@@ -63,6 +62,7 @@ body {
 
 .address-item {
   color: var(--accent-color);
+  display: flex;
 }
 .section-item {
   background-color: darkslategray;
@@ -368,6 +368,7 @@ body {
   padding-top: 94px;
   padding-bottom: 50px;
   background-color: #f5f4fa;
+  margin-bottom: 94px;
 }
 
 .team-title {
@@ -412,42 +413,61 @@ body {
 
 .teamname-list {
   width: 270px;
-  height: 368px;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px #000, 5px 2px 5px #000;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 5px 2px 5px rgba(0, 0, 0, 0.14);
   margin-bottom: 188px;
+  background-color: #fff;
 }
 
+.team-svg-list {
+  display: flex;
+  justify-content: space-between;
+}
+.team-svg-item {
+}
+.team-svg-link {
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.team-svg-link:hover {
+  background-color: rgba(33, 150, 243, 1);
+  fill: #fff;
+
+}
+.team-svg-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.vipclients {
+  margin-bottom: 94px;
+}
 .vipclients-name {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
   letter-spacing: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .vipclients-list {
   align-items: center;
   display: flex block;
   gap: 30px;
- 
 }
 
-
 .yaco-icon {
-  width: 41px;
-  height: 46px;
+  width: 106px;
+  height: 60px;
   fill: #afb1b8;
 }
 
 .company-icon {
   width: 40px;
   height: 51px;
-  margin: 19px 65px 21px;
   fill: #afb1b8;
 }
 
@@ -483,17 +503,14 @@ body {
   display: block;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  padding: 23px 65px 22px 64px;
+  padding: 16px 32px;
 }
 
-.icon:hover,
-.icon:focus {
-  display: inline-block;
-  border-radius: 4px;
+.vipicon:hover,
+.vipicon:focus {
   border: 1px solid #2196f3;
-  display: block;
 }
-.icon:hover.icon {
+.vipicon:hover .yaco-icon {
   fill: #2196f3;
 }
 
