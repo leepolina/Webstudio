@@ -749,7 +749,7 @@ span {
   border: 1px solid rgba(33, 150, 243, 1);
 }
 
-.modal-input:hover + .modal-icon {
+.modal-input:hover .modal-icon {
   fill: #2196f3;
 }
 
