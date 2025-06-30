@@ -56,38 +56,36 @@
           <h3 class="name-modal">Залиште свої дані, ми вам передзвонимо</h3>
             <form action="">
                 <label class="modal-label">
-                    <p class="comment-modal">Ім'я</p>
+                    Ім'я
+                    <svg class="modal-icon">
+                        <use href="./images/symbol-defs.svg#icon-person"></use>
+                      </svg>
                   <input class="modal-input" type="name" />
-                  <svg class="modal-icon">
-                    <use href="./images/symbol-defs.svg#icon-person"></use>
-                  </svg>
                 </label>
 
                 <label class="modal-label">
-                  <p class="comment-modal">Телефон</p>
+                Телефон
+                    <svg class="modal-icon">
+                        <use href="./images/symbol-defs.svg#icon-phonevector"></use>
+                  </svg>
                   <input class="modal-input" type="phone" />
-                  <svg class="modal-icon">
-                    <use href="./images/symbol-defs.svg#icon-phonevector"></use>
-                  </svg>
                 </label>
 
                 <label class="modal-label">
-                    <p class="comment-modal">Пошта</p>
+                    Пошта
+                    <svg class="modal-icon">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                      </svg>
                   <input class="modal-input" type="email" />
-                  <svg class="modal-icon">
-                    <use href="./images/symbol-defs.svg#icon-mail"></use>
-                  </svg>
                 </label>
-                <p class="comment-area">Коментар</p>
-                <label class="label-area"><input class="text-area" placeholder="Введіть текст"class="input-area"/></label>
+                <label class="label-area">Коментар<textarea class="text-area" placeholder="Введіть текст"class="input-area"></textarea></label>
                 <div class="input-checkbox">
                   <input type="checkbox" />
-                  <label><h3 class="text-form">Погоджуюся з розсилкою та приймаю<span><a href="#" class="link-form">Умови договору</a></span></h3>
+                  <label class="text-form">Погоджуюся з розсилкою та приймаю<a href="#" class="link-form">Умови договору</a>
                   </label>
-                  <br />
                 </div>
+                <button class="send-form" data-modal-close>Відправити</button>
               </form>
-              <button class="send-form" data-modal-close>Відправити</button>
             </div>
           </div>
         </div>
