@@ -58,9 +58,8 @@ body {
     width: 48px;
     height: 4px;
     border-radius: 2px;
-
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
 }
 
 
@@ -68,6 +67,7 @@ body {
   color: #212121;
   position: relative;
 }
+
 
 .address-item1 {
   color: #212121;
