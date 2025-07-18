@@ -75,13 +75,18 @@ body {
   transform: scaleX(1);
 }
 
-.address-item1 {
+.address-item {
   color: #212121;
+  display: flex;
+  align-items: center;
 }
 
-.address-item {
+.address-item:hover .address-icon {
+  fill: var(--accent-color);
+}
+
+.address-item:hover {
   color: var(--accent-color);
-  display: flex;
 }
 .section-item {
   background-color: darkslategray;
@@ -94,12 +99,9 @@ body {
   background-color: rgb(183, 180, 180);
 }
 .footer {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-  height: 252px;
   background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .mail-footer {
   font-family: "roboto";
@@ -137,11 +139,7 @@ body {
 .info-footer {
   gap: 9px;
 }
-.footer-footer {
-  background-color: #2f303a;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
+.footer-contact {
   margin-right: 70px;
 }
 
@@ -149,10 +147,8 @@ body {
   font-family: "raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 3, 84;
   letter-spacing: 3%;
   color: #ffffff;
-  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -662,7 +658,6 @@ span {
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 75px;
   margin-bottom: 20px;
 }
 .icon-footer {
@@ -954,4 +949,49 @@ span {
   letter-spacing: 1%;
   color: rgba(117, 117, 117, 1);
   margin: 10px 391px 4px 40px;
+}
+
+
+
+.subscribtion-title{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+
+.subscribtion{
+    margin-left: 93px;
+    width: 358px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.subscribtion-input{
+    border-radius: 2px;
+    border: #757575;
+    background-color:rgba(47, 48, 58, 1) ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 16px;
+}
+
+
+
+
+.subscribe-btn{
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s;
+  font-family:"Roboto", sans-serif;
+
 }
