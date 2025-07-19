@@ -330,7 +330,6 @@ span {
   overflow: hidden;
 }
 
-
 .list-wrap.overlay {
   position: absolute;
   bottom: 0;
@@ -341,21 +340,13 @@ span {
   color: white;
   transform: translateY(100%);
   opacity: 0;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
 
 .list-name-wrap {
   position: relative;
@@ -770,13 +761,19 @@ span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
 }
 
-.modal.is-open{
-    transform: scale(1);
-    opacity: 1;
-    visibility: visible;
+.modal.is-open {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-close {
+  fill: #000;
 }
 .X {
   width: 30px;
@@ -785,12 +782,16 @@ span {
   margin: 8px 8px 2px 490px;
   padding: 6px;
   border: 1px solid #0000001a;
-  background-color: #fff;
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
 .X > svg {
   width: 14px;
   height: 14px;
   background-color: #fff;
+  fill: rgba(0, 0, 0, 1);
 }
 
 .X > svg:hover,
@@ -864,7 +865,9 @@ span {
   font-size: 12px;
   font-weight: 400;
   color: rgba(117, 117, 117, 1);
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
   position: relative;
   margin-bottom: 16px;
 }
@@ -987,37 +990,31 @@ span {
   margin: 10px 391px 4px 40px;
 }
 
-
-
-.subscribtion-title{
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 1);
-    text-transform: uppercase;
+.subscribtion-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
 }
 
-
-.subscribtion{
-    margin-left: 93px;
-    width: 358px;
-    height: 50px;
-    display: flex;
-    gap: 10px;
+.subscribtion {
+  margin-left: 93px;
+  width: 358px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
 }
 
-.subscribtion-input{
-    border-radius: 2px;
-    border: #757575;
-    background-color:rgba(47, 48, 58, 1) ;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 16px;
+.subscribtion-input {
+  border-radius: 2px;
+  border: #757575;
+  background-color: rgba(47, 48, 58, 1);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 16px;
 }
 
-
-
-
-.subscribe-btn{
+.subscribe-btn {
   background-color: #2196f3;
   color: white;
   border: none;
@@ -1028,6 +1025,5 @@ span {
   align-items: center;
   gap: 5px;
   transition: background-color 0.3s;
-  font-family:"Roboto", sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
